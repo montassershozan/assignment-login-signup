@@ -1,0 +1,34 @@
+body{
+    background-color: #24353f;
+}
+h1{
+    color:#17a2b8;
+}
+
+input{
+    background-color: #24353f!important;
+    color: #fff !important;
+
+}
+
+input::placeholder {
+    color: rgb(182, 182, 182) !important;
+}
+
+.btn-info {
+    --bs-btn-color: #0dcaf0;
+    --bs-btn-bg: #24353f;
+}
+
+.btn-info:hover {
+    --bs-btn-color: #000;
+    --bs-btn-bg: #0dcaf0;
+}
+
+#welcome-sec{
+    padding: 2rem;
+    margin-top: 8rem;
+    margin-left: 19rem;
+    text-align: center;
+}
+
